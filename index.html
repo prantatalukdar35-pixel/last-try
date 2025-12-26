@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Problem Drop Box</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Drop Your Problem</h1>
+
+    <label>Choose Subject</label>
+    <select id="subject">
+      <option value="Maths">Maths</option>
+      <option value="Physics">Physics</option>
+      <option value="Chemistry">Chemistry</option>
+    </select>
+
+    <label>Write Your Problem</label>
+    <textarea id="problem" placeholder="Type your problem here..."></textarea>
+
+    <button onclick="submitProblem()">Submit</button>
+
+    <h2>Submitted Problems</h2>
+    <ul id="problemList"></ul>
+  </div>
+
+  <footer>
+    created by Pranta
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
